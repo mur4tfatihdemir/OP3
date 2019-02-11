@@ -40,56 +40,56 @@
             // 
             // txad
             // 
-            this.txad.Location = new System.Drawing.Point(267, 42);
+            this.txad.Location = new System.Drawing.Point(337, 49);
             this.txad.Name = "txad";
             this.txad.Size = new System.Drawing.Size(100, 20);
             this.txad.TabIndex = 0;
             // 
             // txsoyad
             // 
-            this.txsoyad.Location = new System.Drawing.Point(267, 79);
+            this.txsoyad.Location = new System.Drawing.Point(337, 86);
             this.txsoyad.Name = "txsoyad";
             this.txsoyad.Size = new System.Drawing.Size(100, 20);
             this.txsoyad.TabIndex = 1;
             // 
             // txkullaniciadi
             // 
-            this.txkullaniciadi.Location = new System.Drawing.Point(267, 115);
+            this.txkullaniciadi.Location = new System.Drawing.Point(337, 122);
             this.txkullaniciadi.Name = "txkullaniciadi";
             this.txkullaniciadi.Size = new System.Drawing.Size(100, 20);
             this.txkullaniciadi.TabIndex = 2;
             // 
             // txsfre
             // 
-            this.txsfre.Location = new System.Drawing.Point(267, 152);
+            this.txsfre.Location = new System.Drawing.Point(337, 159);
             this.txsfre.Name = "txsfre";
             this.txsfre.Size = new System.Drawing.Size(100, 20);
             this.txsfre.TabIndex = 3;
             // 
             // txtel
             // 
-            this.txtel.Location = new System.Drawing.Point(267, 188);
+            this.txtel.Location = new System.Drawing.Point(337, 195);
             this.txtel.Name = "txtel";
             this.txtel.Size = new System.Drawing.Size(100, 20);
             this.txtel.TabIndex = 4;
             // 
             // txmail
             // 
-            this.txmail.Location = new System.Drawing.Point(267, 214);
+            this.txmail.Location = new System.Drawing.Point(337, 221);
             this.txmail.Name = "txmail";
             this.txmail.Size = new System.Drawing.Size(100, 20);
             this.txmail.TabIndex = 5;
             // 
             // txtc
             // 
-            this.txtc.Location = new System.Drawing.Point(267, 240);
+            this.txtc.Location = new System.Drawing.Point(337, 247);
             this.txtc.Name = "txtc";
             this.txtc.Size = new System.Drawing.Size(100, 20);
             this.txtc.TabIndex = 6;
             // 
             // txkytol
             // 
-            this.txkytol.Location = new System.Drawing.Point(292, 266);
+            this.txkytol.Location = new System.Drawing.Point(350, 273);
             this.txkytol.Name = "txkytol";
             this.txkytol.Size = new System.Drawing.Size(75, 23);
             this.txkytol.TabIndex = 7;
@@ -101,7 +101,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(862, 320);
             this.Controls.Add(this.txkytol);
             this.Controls.Add(this.txtc);
             this.Controls.Add(this.txmail);

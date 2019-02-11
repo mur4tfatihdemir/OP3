@@ -1,4 +1,5 @@
-﻿using System;
+﻿using hotelf.classlibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,7 +25,34 @@ namespace hotelf
 
         private void txkytol_Click(object sender, EventArgs e)
         {
+            musteri musteri  = new musteri();
+            musteri.adi = txad.Text;
+            musteri.soyadi = txsoyad.Text;
+            musteri.KullaniciAdi
+            musteri.Sifre 
+            musteri.Telefon 
+            musteri.TcKimlik 
+            var musteriVarMi = DbFactory.MusteriCrud.Records.Any(x => x.KullaniciAdi == TbKullaniciAdi.Text);
+            if (musteriVarMi == true)
+            {
+                MessageBox.Show("Başka kullanıcı adı giriniz.");
+            }
+            else
+            {
+                bool musteriEklendiMi = DbFactory.MusteriCrud.Insert(musteri);
+                if (musteriEklendiMi == true)
+                {
+                    MessageBox.Show("Yeni Kayıt Oluşturuldu.");
+                }
+                else
+                {
+                    MessageBox.Show("Tekrar deneyin");
+                }
+            }
 
+            FrmGiris frmGiris = new FrmGiris();
+            frmGiris.Show();
+            this.Hide();
         }
     }
 }

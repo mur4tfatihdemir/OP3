@@ -8,6 +8,10 @@ namespace hotelf.classlibrary
 {
     public class musteri : DbObject
     {
+        public musteri()
+        {
+        }
+
         public musteri(string adi, string soyadi, string sifre, string kullaniciid, string tel, string email, int tc)
         {
             this.adi = adi;
@@ -19,7 +23,7 @@ namespace hotelf.classlibrary
             this.tc = tc;
         }
 
-      public  string adi { get; set; }
+         public  string adi { get; set; }
         public string soyadi { get; set; }
         public string sifre { get; set; }
         public string kullaniciid { get; set; }

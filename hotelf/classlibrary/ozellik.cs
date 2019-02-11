@@ -9,14 +9,11 @@ namespace hotelf.classlibrary
 {
     public class ozellik : DbObject
     {
-        public ozellik(string özellikadi, string özellikid)
-        {
-            this.özellikadi = özellikadi;
-            this.özellikid = özellikid;
-        }
-        [Required]
-        public string özellikadi { get; set; }
+        private string _ozellikadi;
 
-        public string özellikid { get; set; }
+        [Required]
+        public string ozellikadi { get => _ozellikadi; set => _ozellikadi = value; }
+
+        public string ozellikid { get; set; }
     }
 }

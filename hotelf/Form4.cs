@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Odbc;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -29,6 +30,11 @@ namespace hotelf
             kayit5 f55 = new kayit5();
             f55.Show();
             this.Hide();
+        }
+
+        private void btngrs_Click(object sender, EventArgs e)
+        {
+            var giris=
         }
     }
 }

@@ -21,5 +21,10 @@ namespace hotelf
         {
 
         }
+
+        private void txkytol_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

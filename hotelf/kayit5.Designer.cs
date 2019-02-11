@@ -95,6 +95,7 @@
             this.txkytol.TabIndex = 7;
             this.txkytol.Text = "kayıtol";
             this.txkytol.UseVisualStyleBackColor = true;
+            this.txkytol.Click += new System.EventHandler(this.txkytol_Click);
             // 
             // kayit5
             // 

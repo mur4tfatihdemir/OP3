@@ -34,6 +34,7 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.btnsfre = new System.Windows.Forms.Button();
             this.btnkyt = new System.Windows.Forms.Button();
+            this.btngrs = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -89,11 +90,22 @@
             this.btnkyt.UseVisualStyleBackColor = true;
             this.btnkyt.Click += new System.EventHandler(this.btnkyt_Click);
             // 
+            // btngrs
+            // 
+            this.btngrs.Location = new System.Drawing.Point(355, 191);
+            this.btngrs.Name = "btngrs";
+            this.btngrs.Size = new System.Drawing.Size(75, 23);
+            this.btngrs.TabIndex = 6;
+            this.btngrs.Text = "btngrs";
+            this.btngrs.UseVisualStyleBackColor = true;
+            this.btngrs.Click += new System.EventHandler(this.btngrs_Click);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btngrs);
             this.Controls.Add(this.btnkyt);
             this.Controls.Add(this.btnsfre);
             this.Controls.Add(this.checkBox1);
@@ -116,5 +128,6 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button btnsfre;
         private System.Windows.Forms.Button btnkyt;
+        private System.Windows.Forms.Button btngrs;
     }
 }

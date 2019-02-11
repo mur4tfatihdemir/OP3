@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 // add notes
+//add notes 2
 namespace hotelf
 {
     public partial class Form1 : Form

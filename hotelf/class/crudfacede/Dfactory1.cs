@@ -96,74 +96,74 @@ namespace hotelf.classlibrary
                 return _OtelCrud;
             }
         }
-        public static volatile GenelCrud<OtelOzelligi> _OtelOzelligiCrud = null;
-        public static GenelCrud<OtelOzelligi> OtelOzelligiCrud
+        public static volatile Oteltumislem<otelozelligi> _OtelOzelligiCrud = null;
+        public static Oteltumislem<otelozelligi> OtelOzelligiCrud
         {
             get
             {
                 if (_OtelOzelligiCrud == null)
                 {
-                    _OtelOzelligiCrud = new GenelCrud<OtelOzelligi>(Db, Db.OtelOzellikleri);
+                    _OtelOzelligiCrud = new Oteltumislem<otelozelligi>(Db, Db.Otelozelligis);
                 }
                 return _OtelOzelligiCrud;
             }
         }
-        public static volatile GenelCrud<OtelResimleri> _OtelResimleriCrud = null;
-        public static GenelCrud<OtelResimleri> OtelResimleriCrud
+        public static volatile Oteltumislem<otelresimleri> _OtelResimleriCrud = null;
+        public static Oteltumislem<otelresimleri> OtelResimleriCrud
         {
             get
             {
                 if (_OtelResimleriCrud == null)
                 {
-                    _OtelResimleriCrud = new GenelCrud<OtelResimleri>(Db, Db.OtelResimleri);
+                    _OtelResimleriCrud = new Oteltumislem<otelresimleri>(Db, Db.Otelresimleris);
                 }
                 return _OtelResimleriCrud;
             }
         }
-        public static volatile GenelCrud<Ozellik> _OzellikCrud = null;
-        public static GenelCrud<Ozellik> OzellikCrud
+        public static volatile Oteltumislem<ozellik> _OzellikCrud = null;
+        public static Oteltumislem<ozellik> OzellikCrud
         {
             get
             {
                 if (_OzellikCrud == null)
                 {
-                    _OzellikCrud = new GenelCrud<Ozellik>(Db, Db.Ozellikler);
+                    _OzellikCrud = new Oteltumislem<ozellik>(Db, Db.Ozelliks);
                 }
                 return _OzellikCrud;
             }
         }
-        public static volatile GenelCrud<Rezervasyon> _RezerasyonCrud = null;
-        public static GenelCrud<Rezervasyon> RezervasyonCrud
+        public static volatile Oteltumislem<rezervasyon> _RezerasyonCrud = null;
+        public static Oteltumislem<rezervasyon> RezervasyonCrud
         {
             get
             {
                 if (_RezerasyonCrud == null)
                 {
-                    _RezerasyonCrud = new GenelCrud<Rezervasyon>(Db, Db.Rezervasyonlar);
+                    _RezerasyonCrud = new Oteltumislem<rezervasyon>(Db, Db.Rezervasyons);
                 }
                 return _RezerasyonCrud;
             }
         }
-        public static volatile GenelCrud<Yildiz> _YildizCrud = null;
-        public static GenelCrud<Yildiz> YildizCrud
+        public static volatile Oteltumislem<yildiz> _YildizCrud = null;
+        public static Oteltumislem<yildiz> YildizCrud
         {
             get
             {
                 if (_YildizCrud == null)
                 {
-                    _YildizCrud = new GenelCrud<Yildiz>(Db, Db.Yildizlar);
+                    _YildizCrud = new Oteltumislem<yildiz>(Db, Db.Yildizs);
                 }
                 return _YildizCrud;
             }
         }
-        public static volatile GenelCrud<Yorum> _YorumCrud = null;
-        public static GenelCrud<Yorum> YorumCrud
+        public static volatile Oteltumislem<yorum> _YorumCrud = null;
+        public static Oteltumislem<yorum> YorumCrud
         {
             get
             {
                 if (_YorumCrud == null)
                 {
-                    _YorumCrud = new GenelCrud<Yorum>(Db, Db.Yorumlar);
+                    _YorumCrud = new Oteltumislem<yorum>(Db, Db.yorus);
                 }
                 return _YorumCrud;
             }

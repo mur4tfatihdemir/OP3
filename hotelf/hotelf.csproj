@@ -71,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="classlibrary\odatipienum.cs" />
+    <Compile Include="class\crudfacede\Dfactory1.cs" />
     <Compile Include="class\crudfacede\Interface1.cs" />
     <Compile Include="class\crudfacede\oteltumislem.cs" />
     <Compile Include="class\DbObject.cs" />

@@ -28,7 +28,7 @@ namespace hotelf
         public virtual DbSet<musteri> musteris { get; set; }
         public virtual DbSet<oda> odas { get; set; }
         //  public virtual DbSet<odatipienum > Odatipienum1s { get; set; }
-
+        public virtual DbSet<otel> Otels { get; set; }
         public virtual DbSet<otelozelligi> Otelozelligis { get; set; }
         public virtual DbSet<otelresimleri> Otelresimleris { get; set; }
         public virtual DbSet<ozellik> Ozelliks { get; set; }

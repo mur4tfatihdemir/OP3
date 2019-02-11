@@ -1,4 +1,5 @@
-﻿using System;
+﻿using hotelf.classlibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,7 +35,15 @@ namespace hotelf
 
         private void btngrs_Click(object sender, EventArgs e)
         {
-            var giris=
+            var giris = Dfactory1.MusteriCrud.Records.FirstOrDefault(x => x.sifre == textBox1.Text && x.adi == textBox2.Text);
+            if (giris == null) { MessageBox.Show("giris basarili");
+                Form2 f2 = new Form2();
+                f2.Show();
+                this.Hide();
+
+            }
+            else { MessageBox.Show("giris basarısız"); }
+
         }
     }
 }

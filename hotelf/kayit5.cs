@@ -28,10 +28,10 @@ namespace hotelf
             musteri musteri  = new musteri();
             musteri.adi = txad.Text;
             musteri.soyadi = txsoyad.Text;
-            musteri.KullaniciAdi
-            musteri.Sifre 
-            musteri.Telefon 
-            musteri.TcKimlik 
+            musteri.kullaniciid = txkullaniciadi.Text;
+            musteri.sifre = txsfre.Text;
+            musteri.tel = txtel.Text;
+            musteri.tc = Convert.ToInt32(txtc.Text);
             var musteriVarMi = DbFactory.MusteriCrud.Records.Any(x => x.KullaniciAdi == TbKullaniciAdi.Text);
             if (musteriVarMi == true)
             {

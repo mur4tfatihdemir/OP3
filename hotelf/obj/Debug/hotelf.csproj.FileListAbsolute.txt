@@ -55,3 +55,21 @@ E:\hotelll\hotelf\hotelf\obj\Debug\hotelf.Form7.resources
 E:\hotelll\hotelf\hotelf\obj\Debug\hotelf.Form8.resources
 E:\hotelll\hotelf\hotelf\obj\Debug\hotelf.Form9.resources
 E:\hotelll\hotelf\hotelf\obj\Debug\hotelf.kayit5.resources
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.csprojAssemblyReference.cache
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.Form1.resources
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.Form2.resources
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.Form3.resources
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.Form4.resources
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.Form6.resources
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.Form7.resources
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.Form8.resources
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.Form9.resources
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.kayit5.resources
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.Migrations.v2.resources
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.Migrations.v21.resources
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.Migrations.v4.resources
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.Properties.Resources.resources
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.csproj.GenerateResource.cache
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.csproj.CoreCompileInputs.cache
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.exe
+E:\ft\Yeni klasör (2)\OP3\hotelf\obj\Debug\hotelf.pdb

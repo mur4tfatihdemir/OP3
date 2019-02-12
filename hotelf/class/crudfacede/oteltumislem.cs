@@ -109,5 +109,6 @@ namespace hotelf.classlibrary
                 return false;
             }
         }
+        public void CheckConnection() { var records = Records; }
     }
 }

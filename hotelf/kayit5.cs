@@ -32,14 +32,14 @@ namespace hotelf
             musteri.sifre = txsfre.Text;
             musteri.tel = txtel.Text;
             musteri.tc = Convert.ToInt32(txtc.Text);
-            var musteriVarMi = DbFactory.MusteriCrud.Records.Any(x => x.KullaniciAdi == TbKullaniciAdi.Text);
+            var musteriVarMi = Dfactory1.MusteriCrud.Records.Any(x => x.adi == txkullaniciadi.Text);
             if (musteriVarMi == true)
             {
                 MessageBox.Show("Başka kullanıcı adı giriniz.");
             }
             else
             {
-                bool musteriEklendiMi = DbFactory.MusteriCrud.Insert(musteri);
+                bool musteriEklendiMi = Dfactory1.MusteriCrud.Insert(musteri);
                 if (musteriEklendiMi == true)
                 {
                     MessageBox.Show("Yeni Kayıt Oluşturuldu.");
@@ -50,7 +50,7 @@ namespace hotelf
                 }
             }
 
-            FrmGiris frmGiris = new FrmGiris();
+            Form4 frmGiris = new Form4();
             frmGiris.Show();
             this.Hide();
         }
